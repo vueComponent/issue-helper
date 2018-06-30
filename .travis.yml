@@ -4,7 +4,7 @@ node_js:
 script:
   - npm run build
 after_script:
-- bash ./scripts/deploy-to-gh-pages.sh
+- bash ./build/deploy_to_gh_pages.sh
 deploy:
   provider: pages
   skip-cleanup: true
