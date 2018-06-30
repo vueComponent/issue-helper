@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd dist
 git init
 git config user.name "travis@travis-ci.org"
