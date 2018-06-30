@@ -89,7 +89,7 @@ const BugReportForm = {
       );
       const content = this.getContent(issueType);
       const withConfirm = `
-        - [ ] I have searched the [issues](https://github.com/ant-design/${repo}/issues) \
+        - [ ] I have searched the [issues](https://github.com/vueComponent/${repo}/issues) \
         of this repository and believe that this is not a duplicate.
 
         ${content}
@@ -98,7 +98,7 @@ const BugReportForm = {
             const body = encodeURIComponent(withMarker).replace(/%2B/gi, '+');
             const label = issueType === 'feature' ? '&labels=Feature%20Request' : '';
             window.open(
-              `https://github.com/ant-design/${repo}/issues/new?title=${title}&body=${body}${label}`,
+              `https://github.com/vueComponent/${repo}/issues/new?title=${title}&body=${body}${label}`,
             );
     },
 

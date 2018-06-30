@@ -20,4 +20,4 @@ A **minimal** reproduction means it demonstrates the bug, and the bug only. It s
 
 ##### How to create a repro
 
-Unless your bug can only be reproduced with a built setup, we prefer reproductions made with [Codepen for antd](http://codepen.io/benjycui/pen/KgPZrE?editors=001) / [CodePen for antd-mobile](http://codepen.io/paranoidjk/pen/LWpaKe)]. If your bug involves a build setup, you can create a project using [antd-init](https://github.com/ant-design/antd-init) and provide the link to a GitHub repository.
+Unless your bug can only be reproduced with a built setup, we prefer reproductions made with [Codepen for antd](https://codesandbox.io/s/2wpk21kzvr).
