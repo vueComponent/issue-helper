@@ -12,7 +12,6 @@ Vue.use(VueResource)
 window.addEventListener('dragover', e => {
   e.preventDefault()
 })
-
 window.addEventListener('drop', e => {
   e.preventDefault()
   alert(app.i18n('drop-warn'))
