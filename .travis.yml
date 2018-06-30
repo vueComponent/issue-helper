@@ -6,9 +6,6 @@ script:
   - npm run build
 after_script:
   - bash ./build/deploy_to_gh_pages.sh
-deploy:
-  on:
-    branch: master
 env:
   matrix:
     secure: L2t4TETL8HGYL+oaWy8MXySWOyYK3Fz4EG5qYWSHj/EOofH8X7l+kw6KQk6vcGLCcMSUHmJTC1XhW7NlZbudK4s39NVYXJ0ANQAEwezqXCIvENeasrqyDkrdd+KSkVqOVel047yKqJ4Sqw3ZE+ri0EgkPR2DONzQd+RX5sf26gL+tXaJbmY5HBo5Z/QgzFyPns7HOoGooI2oQyGBMmQfTU/dC8cinHkSXvj0jnirM3G6G4lA9s+y2WHLBZNpxKBqYlwjcELLfFZKz+Tt4HwikAUB8QDqwoqg4weAFput0R9n00xMLuhHobjhMGmsrE6/6qNwOl9AccJqP5D0XbokoDWnVSCP4cIgW261KTUvM0kTcQPsftEL0CzH/EJznjPIn/WH3wFM5NjYhDWrmnFNw0q8DSbOkaWJYCKOVOgp1OpNwdmBdjnCmwCy8RI0JiG/fxcuC3S+khw2uJOEx8HloJgbvcM2exOFW3n7Zr1ha9iA0fppfuHCqbxSMaoqwG9JfmeDXtoPegKzF5dZudhXtcJEG9cJamcPKAe5k9GCiOiVi/KN9uKThqHqc+yhzb5sdEWKxy8ryatYrEEOBX5yPYKD0hTss0su6/bpans7KIaFB59GfPXDyR7wwRx869s33n0OvJ/IFN2nMIeztYpd5anZTQTtaczNy/B0utcDu3Q=
