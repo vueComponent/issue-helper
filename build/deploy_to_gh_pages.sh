@@ -11,5 +11,5 @@ git push -f "https://${GITHUB_TOKEN}@github.com/vueComponent/vue-antd-issue-help
 echo "Done updating gh-pages\n"
 
 else
- echo "Skipped updating gh-pages, because build is not triggered from the master branch."
+ echo "Skipped updating gh-pages, because build is not triggered from the master branch"
 fi;
