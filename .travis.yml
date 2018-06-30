@@ -1,7 +1,7 @@
 language: node_js
 sudo: required
 node_js:
-  - 9
+  - 8.2.1
 script:
   - npm run build
 after_script:
