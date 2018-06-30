@@ -1,10 +1,11 @@
 language: node_js
+sudo: required
 node_js:
   - 9
 script:
   - npm run build
 after_script:
-- bash ./build/deploy_to_gh_pages.sh
+  - bash ./build/deploy_to_gh_pages.sh
 deploy:
   on:
     branch: master

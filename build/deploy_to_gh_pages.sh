@@ -6,7 +6,7 @@ git config user.name "travis@travis-ci.org"
 git config user.email "Travis"
 git add .
 git commit -m "Update docs"
-git push -f "https://${GITHUB_TOKEN}@github.com/vueComponent/vue-antd-issue-helper.git" master:gh-pages
+git push -f "https://${GH_TOKEN}@github.com/vueComponent/vue-antd-issue-helper.git" master:gh-pages
 
 echo "Done updating gh-pages\n"
 
