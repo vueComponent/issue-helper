@@ -1,6 +1,6 @@
-# vue-issue-helper
+# vue-antd-issue-helper
 
-> Vue issue helper
+> Vue antd issue helper
 
 ## Build Setup
 
