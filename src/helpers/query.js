@@ -5,7 +5,8 @@ export function getQuery () {
 }
 
 export function updateQuery (query) {
-  const newUrl = window.location.origin + '/?' + qs.stringify(
+  const { origin, pathname} = window.location
+  const newUrl = origin + pathname + '/?' + qs.stringify(
     { ...getQuery(), ...query },
     { encode: false }
   )
