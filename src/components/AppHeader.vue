@@ -4,7 +4,7 @@
       <div class="logo">
         <img
           alt="logo"
-          src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+          src="https://raw.githubusercontent.com/vueComponent/ant-design/master/logo.png"
         />
         <h1>
           Issue Helper
