@@ -10,7 +10,6 @@ export function updateQuery (query) {
     { ...getQuery(), ...query },
     { encode: false }
   )
-  console.log(newUrl)
   window.history.pushState({
     path: newUrl,
   }, '', newUrl)
