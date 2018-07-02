@@ -1,6 +1,6 @@
 export default {
   "intro.modal": "为什么要有这么严格的 issue 规定",
-  "issue.environmentHelp": "系统版本、浏览器版本、 react-native 版本等等信息",
+  "issue.environmentHelp": "系统版本、浏览器版本、 Vue版本等等信息",
   "issue.create": "创建",
   "issue.environment": "环境",
   "issue.actually": "实际的结果是什么？",

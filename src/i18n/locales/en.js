@@ -1,6 +1,6 @@
 export default {
   "intro.modal": "the reason behind our strict policy issue",
-  "issue.environmentHelp": "os version, browser version, react-native version...",
+  "issue.environmentHelp": "os version, browser version, Vue version...",
   "issue.create": "Create",
   "issue.environment": "Environment",
   "issue.actually": "What is actually happening?",

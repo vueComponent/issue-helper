@@ -4,7 +4,9 @@
       <div class="logo">
         <img
           alt="logo"
-          src="https://raw.githubusercontent.com/vueComponent/ant-design/master/logo.png"
+          width=40
+          height=40
+          src="../assets/images/logo.png"
         />
         <h1>
           Issue Helper
