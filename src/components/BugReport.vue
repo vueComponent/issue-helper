@@ -15,7 +15,7 @@ const params = location.search.slice(1).split('&').reduce((acc, param) => {
 }, {});
 
 if (!params.repo) {
-  params.repo = 'ant-design';
+  params.repo = 'vue-antd-ui';
 }
 
 const BugReportForm = {
@@ -150,7 +150,7 @@ const BugReportForm = {
                     initialValue: params.repo,
                   })(
                     <a-select>
-                      <a-select-option key="ant-design">ant-design</a-select-option>
+                      <a-select-option key="vue-antd-ui">vue-antd-ui</a-select-option>
                     </a-select>,
                   )}
                 </a-form-item>
