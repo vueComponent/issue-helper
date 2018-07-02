@@ -6,10 +6,11 @@ export function getQuery () {
 
 export function updateQuery (query) {
   const { origin, pathname} = window.location
-  const newUrl = origin + pathname + '/?' + qs.stringify(
+  const newUrl = origin + pathname + '?' + qs.stringify(
     { ...getQuery(), ...query },
     { encode: false }
   )
+  console.log(newUrl)
   window.history.pushState({
     path: newUrl,
   }, '', newUrl)
