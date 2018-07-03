@@ -4,7 +4,7 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 
 For usage questions, please use the following resources:
 
-- Read the [docs](http://tangjinzhou.gitee.io/ant-design/docs/vue/introduce/)
+- Read the [docs](/ant-design/docs/vue/introduce/)
 <!-- - Look for / ask questions on [StackOverflow](https://stackoverflow.com/questions/ask?tags=antd) -->
 
 Also try to search for your issue - it may have already been answered or even fixed in the development branch. However, if you find that an old, closed issue still persists in the latest version, you should open a new issue using the form below instead of commenting on the old issue.
