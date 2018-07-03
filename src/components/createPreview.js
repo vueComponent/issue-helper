@@ -35,7 +35,7 @@ function createBugPreview({
   ${actual}
 
   ${extra ? `---\n${extra}` : ''}
-  `.trim();
+  `.split('\n').map(t => t.trim()).join('\n');
   }
 
   function createFeaturePreview({ motivation, proposal }) {
@@ -45,7 +45,7 @@ function createBugPreview({
 
   ### What does the proposed API look like?
   ${proposal}
-  `.trim();
+  `.split('\n').map(t => t.trim()).join('\n');
 }
 
 function createReproductionLink(link) {
