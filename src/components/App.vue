@@ -8,7 +8,7 @@
   <footer class="ant-layout-footer">
     <div class="ant-layout-footer" style="text-align: center;">
       Inspired by <a href="https://new-issue.vuejs.org/" target="_blank">Vue Issue Helper</a> 
-      · <a href="https://github.com/vueComponent/vue-antd-issue-helper">Source Code</a>
+      · <a href="https://github.com/vueComponent/issue-helper">Source Code</a>
     </div>
   </footer>
 </div>

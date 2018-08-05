@@ -1,4 +1,4 @@
-# vue-antd-issue-helper
+# issue-helper
 
 > Vue antd issue helper
 
