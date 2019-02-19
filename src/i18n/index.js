@@ -49,7 +49,7 @@ export default Vue => {
     render (h) {
       const { $texts, $lang } = this.$root
       const locale = $texts[$lang]
-      const content = locale[this.id].default
+      const content = locale[this.id]
       return h('div', {
         domProps: {
           innerHTML: content
