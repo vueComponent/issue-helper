@@ -6,7 +6,7 @@
           alt="logo"
           width=40
           height=40
-          src="../assets/images/logo.png"
+          src="../assets/images/logo.svg"
         />
         <h1>
           Issue Helper
